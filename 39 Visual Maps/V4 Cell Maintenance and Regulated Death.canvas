@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Cell Maintenance and Regulated Death\n\nEnergy, folding and damage signals influence maintenance, recycling and death programmes.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "amp",
+      "type": "file",
+      "file": "21 Signalling Modules/AMPK Signalling.md",
+      "x": 0,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#AMPK Signalling"
+    },
+    {
+      "id": "mt",
+      "type": "file",
+      "file": "21 Signalling Modules/mTOR Signalling.md",
+      "x": 1200,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#mTOR Signalling"
+    },
+    {
+      "id": "auto",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Macroautophagy Initiation and LC3 Lipidation.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Macroautophagy Initiation and LC3 Lipidation"
+    },
+    {
+      "id": "pro",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Protein Translation.md",
+      "x": 1200,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Protein Translation"
+    },
+    {
+      "id": "ly",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Lysosomal Acidification and Digestion.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Lysosomal Acidification and Digestion"
+    },
+    {
+      "id": "er",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/ER Folding and Unfolded Protein Response.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#ER Folding and Unfolded Protein Response"
+    },
+    {
+      "id": "mit",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Mitochondrial Quality Control.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Mitochondrial Quality Control"
+    },
+    {
+      "id": "ad",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Apoptosis and Regulated Cell Death.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Apoptosis and Regulated Cell Death"
+    },
+    {
+      "id": "int",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Intrinsic Apoptosis.md",
+      "x": 0,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Intrinsic Apoptosis"
+    },
+    {
+      "id": "py",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Pyroptosis.md",
+      "x": 600,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Pyroptosis"
+    },
+    {
+      "id": "fer",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Ferroptosis Control.md",
+      "x": 1200,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Ferroptosis Control"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "amp",
+      "fromSide": "bottom",
+      "toNode": "auto",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "can promote initiation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "mt",
+      "fromSide": "left",
+      "toNode": "auto",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "mTORC1 restrains initiation",
+      "color": "#9b7394"
+    },
+    {
+      "id": "e2",
+      "fromNode": "mt",
+      "fromSide": "bottom",
+      "toNode": "pro",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "mTORC1 supports translation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "auto",
+      "fromSide": "bottom",
+      "toNode": "ly",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "cargo delivery after fusion",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "mit",
+      "fromSide": "left",
+      "toNode": "auto",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "selective removal route",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "pro",
+      "fromSide": "bottom",
+      "toNode": "er",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "secretory protein load",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "er",
+      "fromSide": "bottom",
+      "toNode": "ad",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "persistent stress can recruit",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "ad",
+      "fromSide": "left",
+      "toNode": "int",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "mitochondrial pathway",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "ad",
+      "fromSide": "bottom",
+      "toNode": "py",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "gasdermin pathway",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "ad",
+      "fromSide": "right",
+      "toNode": "fer",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "lipid-peroxide-associated\npathway",
+      "color": "#7c969d"
+    }
+  ]
+}

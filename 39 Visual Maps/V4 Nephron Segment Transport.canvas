@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Nephron Segment Transport\n\nMajor segment-specific transport functions, with selected endocrine controls.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "n",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Nephron.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Nephron"
+    },
+    {
+      "id": "g",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Glomerular Filtration Barrier.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Glomerular Filtration Barrier"
+    },
+    {
+      "id": "p",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Proximal Tubule Transport.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Proximal Tubule Transport"
+    },
+    {
+      "id": "t",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Thick Ascending Limb Salt Transport.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Thick Ascending Limb Salt Transport"
+    },
+    {
+      "id": "d",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Distal Nephron Sodium Potassium Coupling.md",
+      "x": 1200,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Distal Nephron Sodium Potassium Coupling"
+    },
+    {
+      "id": "bic",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Proximal Bicarbonate Reclamation.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Proximal Bicarbonate Reclamation"
+    },
+    {
+      "id": "cc",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Countercurrent Multiplication and Exchange.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Countercurrent Multiplication and Exchange"
+    },
+    {
+      "id": "a",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Aquaporin 2 Trafficking.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Aquaporin 2 Trafficking"
+    },
+    {
+      "id": "amm",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Renal Ammoniagenesis.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Renal Ammoniagenesis"
+    },
+    {
+      "id": "ic",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Intercalated Cell Acid Secretion.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Intercalated Cell Acid Secretion"
+    },
+    {
+      "id": "ra",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/Renin Angiotensin Aldosterone System.md",
+      "x": 1200,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Renin Angiotensin Aldosterone System"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "n",
+      "fromSide": "bottom",
+      "toNode": "g",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "filtration unit",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "g",
+      "fromSide": "left",
+      "toNode": "p",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "filtrate enters",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "p",
+      "fromSide": "right",
+      "toNode": "t",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "tubular flow via descending loop",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "t",
+      "fromSide": "right",
+      "toNode": "d",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "tubular flow",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "p",
+      "fromSide": "bottom",
+      "toNode": "bic",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "bicarbonate reclamation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "t",
+      "fromSide": "bottom",
+      "toNode": "cc",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "salt gradient generation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "d",
+      "fromSide": "bottom",
+      "toNode": "a",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "collecting-duct water control",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "p",
+      "fromSide": "left",
+      "toNode": "amm",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "nitrogen metabolism",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "amm",
+      "fromSide": "right",
+      "toNode": "ic",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "supports buffered acid excretion",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "ra",
+      "fromSide": "right",
+      "toNode": "d",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "aldosterone-linked regulation",
+      "color": "#7c969d"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "status": "pass",
+  "counts": {
+    "markdown": 827,
+    "canvas": 44,
+    "yaml_parsed": 827,
+    "cell_types": 53,
+    "reactions": 110,
+    "wiki_links": 8615,
+    "external_reference_links": 962,
+    "canvas_nodes": 495,
+    "canvas_file_references": 479,
+    "canvas_edges": 439,
+    "new_or_rebuilt_canvases": 15,
+    "reachable_notes_and_canvases": 871
+  },
+  "errors": [],
+  "warnings": [],
+  "scope": "Local document structure only; no biological accuracy, external URL availability or native Obsidian rendering certification.",
+  "validated_on": "2026-09-29",
+  "additional_checks": {
+    "original_topics_retained": 436,
+    "original_topic_count": 436,
+    "reaction_index_complete": true,
+    "cell_index_complete": true,
+    "new_substantive_notes": 367,
+    "rewritten_substantive_notes": 179,
+    "filename_repairs": 54
+  }
+}

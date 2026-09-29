@@ -1,0 +1,268 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Injury Hemostasis and Repair\n\nOverlapping defence and repair processes after tissue injury.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "inj",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Tissue Injury Response.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Tissue Injury Response"
+    },
+    {
+      "id": "pl",
+      "type": "file",
+      "file": "10 Blood Hematology & Hemostasis/Platelet Activation.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Platelet Activation"
+    },
+    {
+      "id": "infl",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Acute Inflammation.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Acute Inflammation"
+    },
+    {
+      "id": "co",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Cell-Based Coagulation.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Cell-Based Coagulation"
+    },
+    {
+      "id": "neu",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Neutrophil Oxidative Burst.md",
+      "x": 1200,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Neutrophil Oxidative Burst"
+    },
+    {
+      "id": "fib",
+      "type": "file",
+      "file": "10 Blood Hematology & Hemostasis/Fibrinolysis.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Fibrinolysis"
+    },
+    {
+      "id": "eff",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Efferocytosis.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Efferocytosis"
+    },
+    {
+      "id": "rep",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Wound Healing and Tissue Repair.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Wound Healing and Tissue Repair"
+    },
+    {
+      "id": "ang",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Angiogenesis.md",
+      "x": 0,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Angiogenesis"
+    },
+    {
+      "id": "myo",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Fibroblast and Myofibroblast Activation.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Fibroblast and Myofibroblast Activation"
+    },
+    {
+      "id": "col",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Collagen Synthesis and Cross-Linking.md",
+      "x": 600,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Collagen Synthesis and Cross-Linking"
+    },
+    {
+      "id": "res",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Resolution of Inflammation.md",
+      "x": 1200,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Resolution of Inflammation"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "inj",
+      "fromSide": "left",
+      "toNode": "pl",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "exposed vascular injury",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "inj",
+      "fromSide": "right",
+      "toNode": "infl",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "danger signals",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "pl",
+      "fromSide": "bottom",
+      "toNode": "co",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "procoagulant surfaces",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "co",
+      "fromSide": "bottom",
+      "toNode": "fib",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "fibrin substrate",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "infl",
+      "fromSide": "bottom",
+      "toNode": "neu",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "recruited effector activity",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "neu",
+      "fromSide": "bottom",
+      "toNode": "eff",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "clearance after cell death",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "eff",
+      "fromSide": "bottom",
+      "toNode": "res",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "supports resolution",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "inj",
+      "fromSide": "bottom",
+      "toNode": "rep",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "repair programme",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "rep",
+      "fromSide": "left",
+      "toNode": "ang",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "vascular support",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "rep",
+      "fromSide": "bottom",
+      "toNode": "myo",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "matrix-producing cells",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e10",
+      "fromNode": "myo",
+      "fromSide": "bottom",
+      "toNode": "col",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "matrix synthesis",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e11",
+      "fromNode": "res",
+      "fromSide": "left",
+      "toNode": "rep",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "changes repair environment",
+      "color": "#7c969d"
+    }
+  ]
+}

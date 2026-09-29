@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Water ADH and Renal Concentration\n\nADH changes water permeability; medullary gradients provide the driving force.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "w",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Water and Osmolality Homeostasis.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Water and Osmolality Homeostasis"
+    },
+    {
+      "id": "h",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Hypothalamus.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Hypothalamus"
+    },
+    {
+      "id": "a",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Vasopressin ADH.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Vasopressin ADH"
+    },
+    {
+      "id": "v",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/V2 Receptor.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#V2 Receptor"
+    },
+    {
+      "id": "c",
+      "type": "file",
+      "file": "21 Signalling Modules/cAMP PKA Signalling.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#cAMP PKA Signalling"
+    },
+    {
+      "id": "aq",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Aquaporin 2 Trafficking.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Aquaporin 2 Trafficking"
+    },
+    {
+      "id": "med",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Countercurrent Multiplication and Exchange.md",
+      "x": 0,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Countercurrent Multiplication and Exchange"
+    },
+    {
+      "id": "u",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Urea Recycling.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Urea Recycling"
+    },
+    {
+      "id": "out",
+      "type": "file",
+      "file": "06 Renal Fluids & Electrolytes/Urine Concentration and Dilution.md",
+      "x": 600,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Urine Concentration and Dilution"
+    },
+    {
+      "id": "meas",
+      "type": "file",
+      "file": "23 Clinical Measurements/Urine Osmolality.md",
+      "x": 1200,
+      "y": 2240,
+      "width": 350,
+      "height": 175,
+      "color": "#96a1ad",
+      "subpath": "#Urine Osmolality"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "w",
+      "fromSide": "bottom",
+      "toNode": "h",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "osmotic / volume-related input",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "h",
+      "fromSide": "bottom",
+      "toNode": "a",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "synthesis and neural release\ncontrol",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "a",
+      "fromSide": "bottom",
+      "toNode": "v",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "binds",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "v",
+      "fromSide": "bottom",
+      "toNode": "c",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "Gs signalling",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "c",
+      "fromSide": "bottom",
+      "toNode": "aq",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "promotes trafficking",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "aq",
+      "fromSide": "bottom",
+      "toNode": "out",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "water permeability",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "u",
+      "fromSide": "bottom",
+      "toNode": "med",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "medullary solute contribution",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "med",
+      "fromSide": "right",
+      "toNode": "out",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "osmotic gradient",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "out",
+      "fromSide": "right",
+      "toNode": "w",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "water-balance feedback",
+      "color": "#9b7394"
+    },
+    {
+      "id": "e9",
+      "fromNode": "out",
+      "fromSide": "right",
+      "toNode": "meas",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "related observation",
+      "color": "#7c969d"
+    }
+  ]
+}

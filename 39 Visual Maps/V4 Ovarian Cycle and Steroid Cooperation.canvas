@@ -1,0 +1,246 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Ovarian Cycle and Steroid Cooperation\n\nGonadal cell cooperation, ovulation and uterine response.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "hpg",
+      "type": "file",
+      "file": "03 Endocrine System/Reproductive Endocrine Axes.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Reproductive Endocrine Axes"
+    },
+    {
+      "id": "lh",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/LH.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#LH"
+    },
+    {
+      "id": "fsh",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/FSH.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#FSH"
+    },
+    {
+      "id": "theca",
+      "type": "file",
+      "file": "20 Cell Types/Theca Cell.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Theca Cell"
+    },
+    {
+      "id": "gra",
+      "type": "file",
+      "file": "20 Cell Types/Granulosa Cell.md",
+      "x": 1200,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Granulosa Cell"
+    },
+    {
+      "id": "two",
+      "type": "file",
+      "file": "37 Reproductive and Developmental Mechanisms/Two-Cell Ovarian Steroidogenesis.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Two-Cell Ovarian Steroidogenesis"
+    },
+    {
+      "id": "e",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Estradiol.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Estradiol"
+    },
+    {
+      "id": "ovu",
+      "type": "file",
+      "file": "37 Reproductive and Developmental Mechanisms/Ovulation and Corpus Luteum Function.md",
+      "x": 0,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Ovulation and Corpus Luteum Function"
+    },
+    {
+      "id": "uter",
+      "type": "file",
+      "file": "37 Reproductive and Developmental Mechanisms/Endometrial Decidualisation and Menstruation.md",
+      "x": 1200,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Endometrial Decidualisation and Menstruation"
+    },
+    {
+      "id": "p",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Progesterone.md",
+      "x": 600,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Progesterone"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "hpg",
+      "fromSide": "left",
+      "toNode": "lh",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "gonadotroph output",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "hpg",
+      "fromSide": "right",
+      "toNode": "fsh",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "gonadotroph output",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "lh",
+      "fromSide": "bottom",
+      "toNode": "theca",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "stimulation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "fsh",
+      "fromSide": "bottom",
+      "toNode": "gra",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "stimulation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "theca",
+      "fromSide": "right",
+      "toNode": "two",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "androgen precursor supply",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "gra",
+      "fromSide": "left",
+      "toNode": "two",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "aromatisation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "two",
+      "fromSide": "bottom",
+      "toNode": "e",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "estrogen synthesis",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "e",
+      "fromSide": "left",
+      "toNode": "hpg",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "context-dependent feedback",
+      "color": "#9b7394"
+    },
+    {
+      "id": "e8",
+      "fromNode": "lh",
+      "fromSide": "left",
+      "toNode": "ovu",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "surge supports ovulation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "ovu",
+      "fromSide": "right",
+      "toNode": "p",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "luteal secretion",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e10",
+      "fromNode": "p",
+      "fromSide": "right",
+      "toNode": "uter",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "secretory / decidual support",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e11",
+      "fromNode": "e",
+      "fromSide": "right",
+      "toNode": "uter",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "proliferative support",
+      "color": "#7c969d"
+    }
+  ]
+}

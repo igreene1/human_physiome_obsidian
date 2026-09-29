@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 DNA Repair Decisions\n\nDifferent lesions recruit different repair routes; cell-cycle context also matters.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "dna",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/DNA Replication and Repair.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#DNA Replication and Repair"
+    },
+    {
+      "id": "ber",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Base Excision Repair.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Base Excision Repair"
+    },
+    {
+      "id": "ner",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Nucleotide Excision Repair.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Nucleotide Excision Repair"
+    },
+    {
+      "id": "mmr",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Mismatch Repair.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Mismatch Repair"
+    },
+    {
+      "id": "hr",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Homologous Recombination Repair.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Homologous Recombination Repair"
+    },
+    {
+      "id": "ne",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Nonhomologous End Joining.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Nonhomologous End Joining"
+    },
+    {
+      "id": "ck",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Cell Cycle Checkpoints.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Cell Cycle Checkpoints"
+    },
+    {
+      "id": "ap",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Intrinsic Apoptosis.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Intrinsic Apoptosis"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "dna",
+      "fromSide": "left",
+      "toNode": "ber",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "selected small base lesions",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "dna",
+      "fromSide": "bottom",
+      "toNode": "ner",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "bulky helix-distorting lesions",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "dna",
+      "fromSide": "right",
+      "toNode": "mmr",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "replication mismatches",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "dna",
+      "fromSide": "left",
+      "toNode": "ck",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "damage / replication signals",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "ck",
+      "fromSide": "left",
+      "toNode": "hr",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "template and cell-cycle context",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "ck",
+      "fromSide": "right",
+      "toNode": "ne",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "end-joining context",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "ck",
+      "fromSide": "bottom",
+      "toNode": "ap",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "severe persistent stress can\nrecruit",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "hr",
+      "fromSide": "right",
+      "toNode": "dna",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "restored continuity",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "ne",
+      "fromSide": "left",
+      "toNode": "dna",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "restored continuity",
+      "color": "#7c969d"
+    }
+  ]
+}

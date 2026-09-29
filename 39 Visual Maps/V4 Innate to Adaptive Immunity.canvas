@@ -1,0 +1,289 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Innate to Adaptive Immunity\n\nRecognition, antigen processing and adaptive effector selection.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "inn",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Innate Immune Recognition.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Innate Immune Recognition"
+    },
+    {
+      "id": "tlr",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Toll-Like Receptor Signalling.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Toll-Like Receptor Signalling"
+    },
+    {
+      "id": "ph",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Phagocytosis and Microbial Killing.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Phagocytosis and Microbial Killing"
+    },
+    {
+      "id": "com",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Complement Activation and Regulation.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Complement Activation and Regulation"
+    },
+    {
+      "id": "dc",
+      "type": "file",
+      "file": "20 Cell Types/Dendritic Cell.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Dendritic Cell"
+    },
+    {
+      "id": "m1",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/MHC I Processing and Cross-Presentation.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#MHC I Processing and Cross-Presentation"
+    },
+    {
+      "id": "m2",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/MHC II Processing.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#MHC II Processing"
+    },
+    {
+      "id": "b",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/BCR Signalling.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#BCR Signalling"
+    },
+    {
+      "id": "cd8",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/CD8 Cytotoxic Killing.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#CD8 Cytotoxic Killing"
+    },
+    {
+      "id": "t",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/TCR Signalling and Costimulation.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#TCR Signalling and Costimulation"
+    },
+    {
+      "id": "gc",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Germinal Centre Affinity Maturation.md",
+      "x": 1200,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Germinal Centre Affinity Maturation"
+    },
+    {
+      "id": "tol",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Peripheral Tolerance and Treg Cells.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Peripheral Tolerance and Treg Cells"
+    },
+    {
+      "id": "ab",
+      "type": "file",
+      "file": "33 Immune and Repair Mechanisms/Antibody Class Switching.md",
+      "x": 1200,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Antibody Class Switching"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "inn",
+      "fromSide": "left",
+      "toNode": "tlr",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "one sensing route",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "inn",
+      "fromSide": "bottom",
+      "toNode": "ph",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "recruits defence",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "com",
+      "fromSide": "left",
+      "toNode": "ph",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "opsonisation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "ph",
+      "fromSide": "bottom",
+      "toNode": "dc",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "antigen acquisition context",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "tlr",
+      "fromSide": "right",
+      "toNode": "dc",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "maturation signals",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "dc",
+      "fromSide": "left",
+      "toNode": "m1",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "cross-presentation capacity",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "dc",
+      "fromSide": "bottom",
+      "toNode": "m2",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "presentation route",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "m1",
+      "fromSide": "bottom",
+      "toNode": "cd8",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "CD8 antigen recognition",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "m2",
+      "fromSide": "bottom",
+      "toNode": "t",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "CD4 antigen recognition",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "b",
+      "fromSide": "bottom",
+      "toNode": "gc",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "activated B-cell entry",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e10",
+      "fromNode": "t",
+      "fromSide": "right",
+      "toNode": "gc",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "cognate helper support",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e11",
+      "fromNode": "gc",
+      "fromSide": "bottom",
+      "toNode": "ab",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "associated B-cell\ndifferentiation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e12",
+      "fromNode": "tol",
+      "fromSide": "top",
+      "toNode": "t",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "restrains activation",
+      "color": "#9b7394"
+    }
+  ]
+}

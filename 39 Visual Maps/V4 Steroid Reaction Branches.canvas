@@ -1,0 +1,194 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Steroid Reaction Branches\n\nSelected steroidogenic reactions. Some connecting arrows include intermediate steps described in the notes.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "pr",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Pregnenolone Formation - CYP11A1.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Pregnenolone Formation - CYP11A1"
+    },
+    {
+      "id": "pg",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Progesterone Formation - HSD3B.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Progesterone Formation - HSD3B"
+    },
+    {
+      "id": "17",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Steroid 17-Hydroxylation and Lyase - CYP17A1.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Steroid 17-Hydroxylation and Lyase - CYP17A1"
+    },
+    {
+      "id": "21",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Steroid 21-Hydroxylation - CYP21A2.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Steroid 21-Hydroxylation - CYP21A2"
+    },
+    {
+      "id": "ar",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Estrogen Formation - Aromatase.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Estrogen Formation - Aromatase"
+    },
+    {
+      "id": "al",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Aldosterone Final Reactions - CYP11B2.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Aldosterone Final Reactions - CYP11B2"
+    },
+    {
+      "id": "c",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Cortisol Final Hydroxylation - CYP11B1.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Cortisol Final Hydroxylation - CYP11B1"
+    },
+    {
+      "id": "s",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Steroid Hormone Synthesis.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Steroid Hormone Synthesis"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "pr",
+      "fromSide": "left",
+      "toNode": "pg",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "pregnenolone substrate",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "pr",
+      "fromSide": "right",
+      "toNode": "17",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "pregnenolone branch",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "pg",
+      "fromSide": "bottom",
+      "toNode": "21",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "progesterone branch",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "pg",
+      "fromSide": "right",
+      "toNode": "17",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "17-hydroxylation branch",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "17",
+      "fromSide": "left",
+      "toNode": "21",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "via 17-hydroxyprogesterone",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "21",
+      "fromSide": "right",
+      "toNode": "c",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "11-deoxycortisol",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "21",
+      "fromSide": "bottom",
+      "toNode": "al",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "deoxycorticosterone",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "17",
+      "fromSide": "bottom",
+      "toNode": "ar",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "via androgen intermediates",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "s",
+      "fromSide": "left",
+      "toNode": "pr",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "cholesterol delivery and context",
+      "color": "#7c969d"
+    }
+  ]
+}

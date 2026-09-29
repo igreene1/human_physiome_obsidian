@@ -1,0 +1,257 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 TCA and Respiratory Coupling\n\nThe canonical cycle with redox outputs and replenishment. Arrows show carbon progression rather than every cofactor reaction.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": -600,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "t0",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Citrate Formation - Citrate Synthase.md",
+      "x": 0,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Citrate Formation - Citrate Synthase"
+    },
+    {
+      "id": "t1",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Citrate Isomerisation - Aconitase.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Citrate Isomerisation - Aconitase"
+    },
+    {
+      "id": "t2",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Isocitrate Oxidative Decarboxylation - IDH3.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Isocitrate Oxidative Decarboxylation - IDH3"
+    },
+    {
+      "id": "t3",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Oxoglutarate Oxidative Decarboxylation - OGDH.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Oxoglutarate Oxidative Decarboxylation - OGDH"
+    },
+    {
+      "id": "t4",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Succinyl-CoA Substrate-Level Phosphorylation - SUCL.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Succinyl-CoA Substrate-Level Phosphorylation - SUCL"
+    },
+    {
+      "id": "t5",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Succinate Oxidation - Succinate Dehydrogenase.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Succinate Oxidation - Succinate Dehydrogenase"
+    },
+    {
+      "id": "t6",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Fumarate Hydration - Fumarase.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Fumarate Hydration - Fumarase"
+    },
+    {
+      "id": "t7",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Malate Oxidation - MDH2.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Malate Oxidation - MDH2"
+    },
+    {
+      "id": "in",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Pyruvate Dehydrogenase Reaction.md",
+      "x": -600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Pyruvate Dehydrogenase Reaction"
+    },
+    {
+      "id": "ox",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Electron Transport and Oxidative Phosphorylation.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Electron Transport and Oxidative Phosphorylation"
+    },
+    {
+      "id": "ana",
+      "type": "file",
+      "file": "35 Metabolic and Transport Modules/Anaplerosis and Cataplerosis.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Anaplerosis and Cataplerosis"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "t0",
+      "fromSide": "bottom",
+      "toNode": "t1",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "t1",
+      "fromSide": "bottom",
+      "toNode": "t2",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "t2",
+      "fromSide": "bottom",
+      "toNode": "t3",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "t3",
+      "fromSide": "right",
+      "toNode": "t4",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "t4",
+      "fromSide": "top",
+      "toNode": "t5",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "t5",
+      "fromSide": "top",
+      "toNode": "t6",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "t6",
+      "fromSide": "top",
+      "toNode": "t7",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "t7",
+      "fromSide": "left",
+      "toNode": "t0",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "carbon transformation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "in",
+      "fromSide": "right",
+      "toNode": "t0",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "acetyl-CoA supply",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "t2",
+      "fromSide": "right",
+      "toNode": "ox",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "NADH supply",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e10",
+      "fromNode": "t5",
+      "fromSide": "left",
+      "toNode": "ox",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "electrons to ubiquinone",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e11",
+      "fromNode": "ana",
+      "fromSide": "left",
+      "toNode": "t0",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "maintains intermediate\navailability",
+      "color": "#7c969d"
+    }
+  ]
+}

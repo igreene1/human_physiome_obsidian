@@ -1,0 +1,289 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Glycolysis Reaction Map\n\nTen principal glycolytic reactions, with redox and branch connections. The aldolase products converge through triose handling.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": -600,
+      "y": -420,
+      "width": 2150,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "g0",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Glucose Phosphorylation - Hexokinase and Glucokinase.md",
+      "x": 0,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Glucose Phosphorylation - Hexokinase and Glucokinase"
+    },
+    {
+      "id": "g1",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Glucose 6-Phosphate Isomerisation - GPI.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Glucose 6-Phosphate Isomerisation - GPI"
+    },
+    {
+      "id": "g2",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Fructose 6-Phosphate Phosphorylation - PFK1.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Fructose 6-Phosphate Phosphorylation - PFK1"
+    },
+    {
+      "id": "g3",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Fructose Bisphosphate Cleavage - Aldolase.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Fructose Bisphosphate Cleavage - Aldolase"
+    },
+    {
+      "id": "g4",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Triose Phosphate Isomerisation - TPI1.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Triose Phosphate Isomerisation - TPI1"
+    },
+    {
+      "id": "g5",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Glyceraldehyde 3-Phosphate Oxidation - GAPDH.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Glyceraldehyde 3-Phosphate Oxidation - GAPDH"
+    },
+    {
+      "id": "g6",
+      "type": "file",
+      "file": "31 Biochemical Reactions/First Glycolytic ATP Formation - PGK.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#First Glycolytic ATP Formation - PGK"
+    },
+    {
+      "id": "g7",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Phosphoglycerate Rearrangement - PGAM.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Phosphoglycerate Rearrangement - PGAM"
+    },
+    {
+      "id": "g8",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Phosphoenolpyruvate Formation - Enolase.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Phosphoenolpyruvate Formation - Enolase"
+    },
+    {
+      "id": "g9",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Second Glycolytic ATP Formation - Pyruvate Kinase.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Second Glycolytic ATP Formation - Pyruvate Kinase"
+    },
+    {
+      "id": "ppp",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Pentose Phosphate Pathway.md",
+      "x": -600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Pentose Phosphate Pathway"
+    },
+    {
+      "id": "ldh",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Lactate Dehydrogenase Redox Reaction.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Lactate Dehydrogenase Redox Reaction"
+    },
+    {
+      "id": "pdh",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Pyruvate Dehydrogenase Reaction.md",
+      "x": 1200,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Pyruvate Dehydrogenase Reaction"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "g0",
+      "fromSide": "bottom",
+      "toNode": "g1",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "g1",
+      "fromSide": "bottom",
+      "toNode": "g2",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "g2",
+      "fromSide": "bottom",
+      "toNode": "g3",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "g3",
+      "fromSide": "bottom",
+      "toNode": "g4",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "g4",
+      "fromSide": "right",
+      "toNode": "g5",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "g5",
+      "fromSide": "top",
+      "toNode": "g6",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "g6",
+      "fromSide": "top",
+      "toNode": "g7",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "g7",
+      "fromSide": "top",
+      "toNode": "g8",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "g8",
+      "fromSide": "top",
+      "toNode": "g9",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "next mapped reaction",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "g0",
+      "fromSide": "left",
+      "toNode": "ppp",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "G6P branch",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e10",
+      "fromNode": "g9",
+      "fromSide": "right",
+      "toNode": "ldh",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "pyruvate and redox exchange",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e11",
+      "fromNode": "g9",
+      "fromSide": "right",
+      "toNode": "pdh",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "oxidative entry",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e12",
+      "fromNode": "ldh",
+      "fromSide": "bottom",
+      "toNode": "g5",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "regenerates cytosolic NAD+",
+      "color": "#7c969d"
+    }
+  ]
+}

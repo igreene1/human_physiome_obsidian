@@ -1,0 +1,183 @@
+{
+  "nodes": [
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "25 Brain Regions & Nuclei/Brain Regions & Nuclei — MOC.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "26 Neurotransmitters & Neuromodulators/Neurotransmitters & Neuromodulators — MOC.md",
+      "x": 360,
+      "y": 0,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "27 Neural Receptors & Channels/Neural Receptors & Channels — MOC.md",
+      "x": 720,
+      "y": 0,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Endocrine Hormones & Receptors — MOC.md",
+      "x": 1080,
+      "y": 0,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "29 Autonomic Reflexes & Organ Control/Autonomic Reflexes & Organ Control — MOC.md",
+      "x": 1440,
+      "y": 0,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d0",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — HPA Axis.md",
+      "x": 0,
+      "y": 220,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d1",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — HPG Axis.md",
+      "x": 360,
+      "y": 220,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d2",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — GH IGF-1 Axis.md",
+      "x": 720,
+      "y": 220,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d3",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — Prolactin and Lactation.md",
+      "x": 1080,
+      "y": 220,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d4",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — Baroreflex.md",
+      "x": 0,
+      "y": 400,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d5",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — Sympathetic Receptor Logic.md",
+      "x": 360,
+      "y": 400,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d6",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — Wakefulness Network.md",
+      "x": 720,
+      "y": 400,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d7",
+      "type": "file",
+      "file": "30 Deep Dives Pack 02/Deep Dive — Circadian Endocrine Integration.md",
+      "x": 1080,
+      "y": 400,
+      "width": 300,
+      "height": 110
+    }
+  ],
+  "edges": [
+    {
+      "id": "pe1",
+      "fromNode": "p0",
+      "toNode": "p1"
+    },
+    {
+      "id": "pe2",
+      "fromNode": "p1",
+      "toNode": "p2"
+    },
+    {
+      "id": "pe3",
+      "fromNode": "p2",
+      "toNode": "p3"
+    },
+    {
+      "id": "pe4",
+      "fromNode": "p3",
+      "toNode": "p4"
+    },
+    {
+      "id": "de0",
+      "fromNode": "p3",
+      "toNode": "d0"
+    },
+    {
+      "id": "de1",
+      "fromNode": "p3",
+      "toNode": "d1"
+    },
+    {
+      "id": "de2",
+      "fromNode": "p3",
+      "toNode": "d2"
+    },
+    {
+      "id": "de3",
+      "fromNode": "p3",
+      "toNode": "d3"
+    },
+    {
+      "id": "de4",
+      "fromNode": "p4",
+      "toNode": "d4"
+    },
+    {
+      "id": "de5",
+      "fromNode": "p4",
+      "toNode": "d5"
+    },
+    {
+      "id": "de6",
+      "fromNode": "p0",
+      "toNode": "d6"
+    },
+    {
+      "id": "de7",
+      "fromNode": "p3",
+      "toNode": "d7"
+    }
+  ]
+}

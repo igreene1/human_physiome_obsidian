@@ -1,0 +1,332 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Multiscale Routes\n\nThree examples show how whole-body questions connect to anatomy, cells, signalling and reactions.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "bg",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Blood Glucose Homeostasis.md",
+      "x": 0,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#9b7394",
+      "subpath": "#Blood Glucose Homeostasis"
+    },
+    {
+      "id": "ox",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Oxygen Homeostasis.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#9b7394",
+      "subpath": "#Oxygen Homeostasis"
+    },
+    {
+      "id": "ca",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Calcium and Phosphate Homeostasis.md",
+      "x": 1200,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#9b7394",
+      "subpath": "#Calcium and Phosphate Homeostasis"
+    },
+    {
+      "id": "is",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Pancreatic Islet.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Pancreatic Islet"
+    },
+    {
+      "id": "kid",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Kidney.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Kidney"
+    },
+    {
+      "id": "bone",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Bone Remodelling.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Bone Remodelling"
+    },
+    {
+      "id": "beta",
+      "type": "file",
+      "file": "20 Cell Types/Pancreatic Beta Cell.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Pancreatic Beta Cell"
+    },
+    {
+      "id": "epo",
+      "type": "file",
+      "file": "10 Blood Hematology & Hemostasis/Erythropoiesis.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Erythropoiesis"
+    },
+    {
+      "id": "ost",
+      "type": "file",
+      "file": "20 Cell Types/Osteoclast.md",
+      "x": 1200,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Osteoclast"
+    },
+    {
+      "id": "sec",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Glucose-Stimulated Insulin Secretion.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Glucose-Stimulated Insulin Secretion"
+    },
+    {
+      "id": "heme",
+      "type": "file",
+      "file": "35 Metabolic and Transport Modules/Heme Synthesis and Degradation.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Heme Synthesis and Degradation"
+    },
+    {
+      "id": "acid",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Osteoclast Acidification.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Osteoclast Acidification"
+    },
+    {
+      "id": "gck",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Glucose Phosphorylation - Hexokinase and Glucokinase.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Glucose Phosphorylation - Hexokinase and Glucokinase"
+    },
+    {
+      "id": "fe",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Iron Insertion - Ferrochelatase.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Iron Insertion - Ferrochelatase"
+    },
+    {
+      "id": "anh",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Carbonic Anhydrase Hydration Reaction.md",
+      "x": 1200,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Carbonic Anhydrase Hydration Reaction"
+    },
+    {
+      "id": "atp",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/ATP Generation.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#ATP Generation"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "bg",
+      "fromSide": "bottom",
+      "toNode": "is",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "endocrine integration",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "is",
+      "fromSide": "bottom",
+      "toNode": "beta",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "cellular executor",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "beta",
+      "fromSide": "bottom",
+      "toNode": "sec",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "secretion mechanism",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "sec",
+      "fromSide": "bottom",
+      "toNode": "gck",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "metabolic sensing step",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "ox",
+      "fromSide": "bottom",
+      "toNode": "kid",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "oxygen-linked endocrine input",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "kid",
+      "fromSide": "bottom",
+      "toNode": "epo",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "EPO support",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "epo",
+      "fromSide": "bottom",
+      "toNode": "heme",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "haemoglobin cofactor synthesis",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "heme",
+      "fromSide": "bottom",
+      "toNode": "fe",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "terminal synthetic step",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "ca",
+      "fromSide": "bottom",
+      "toNode": "bone",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "mineral turnover",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "bone",
+      "fromSide": "bottom",
+      "toNode": "ost",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "resorptive executor",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e10",
+      "fromNode": "ost",
+      "fromSide": "bottom",
+      "toNode": "acid",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "effector mechanism",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e11",
+      "fromNode": "acid",
+      "fromSide": "bottom",
+      "toNode": "anh",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "acid generation chemistry",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e12",
+      "fromNode": "atp",
+      "fromSide": "left",
+      "toNode": "sec",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "energy sensing",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e13",
+      "fromNode": "atp",
+      "fromSide": "right",
+      "toNode": "acid",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "proton-pump energy",
+      "color": "#7c969d"
+    }
+  ]
+}

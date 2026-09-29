@@ -1,0 +1,368 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# Human Body — Master Map\n\nStart with a regulated variable or a body system, then move to cellular machinery and reaction detail.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 2150,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "var",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Homeostatic Variables.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#9b7394",
+      "subpath": "#Homeostatic Variables"
+    },
+    {
+      "id": "states",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Integrated Whole-Body States.md",
+      "x": 1200,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#9b7394",
+      "subpath": "#Integrated Whole-Body States"
+    },
+    {
+      "id": "n",
+      "type": "file",
+      "file": "02 Nervous System/Nervous System — MOC.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Nervous System — MOC"
+    },
+    {
+      "id": "en",
+      "type": "file",
+      "file": "03 Endocrine System/Endocrine System — MOC.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Endocrine System — MOC"
+    },
+    {
+      "id": "cv",
+      "type": "file",
+      "file": "04 Cardiovascular System/Cardiovascular System — MOC.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Cardiovascular System — MOC"
+    },
+    {
+      "id": "re",
+      "type": "file",
+      "file": "05 Respiratory System/Respiratory System — MOC.md",
+      "x": 1800,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Respiratory System — MOC"
+    },
+    {
+      "id": "ki",
+      "type": "file",
+      "file": "06 Renal Fluids & Electrolytes/Renal, Fluids & Electrolytes — MOC.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#769bb1",
+      "subpath": "#Renal, Fluids & Electrolytes — MOC"
+    },
+    {
+      "id": "gi",
+      "type": "file",
+      "file": "07 Gastrointestinal Liver & Nutrition/Gastrointestinal, Liver & Nutrition — MOC.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Gastrointestinal, Liver & Nutrition — MOC"
+    },
+    {
+      "id": "im",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Immune, Inflammation & Repair — MOC.md",
+      "x": 1200,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#Immune, Inflammation & Repair — MOC"
+    },
+    {
+      "id": "bl",
+      "type": "file",
+      "file": "10 Blood Hematology & Hemostasis/Blood, Hematology & Hemostasis — MOC.md",
+      "x": 1800,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Blood, Hematology & Hemostasis — MOC"
+    },
+    {
+      "id": "mu",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Musculoskeletal System — MOC.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#ba9979",
+      "subpath": "#Musculoskeletal System — MOC"
+    },
+    {
+      "id": "sk",
+      "type": "file",
+      "file": "12 Integumentary & Thermoregulation/Integumentary & Thermoregulation — MOC.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#ba9979",
+      "subpath": "#Integumentary & Thermoregulation — MOC"
+    },
+    {
+      "id": "rp",
+      "type": "file",
+      "file": "13 Reproductive System/Reproductive System — MOC.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Reproductive System — MOC"
+    },
+    {
+      "id": "de",
+      "type": "file",
+      "file": "14 Development Growth & Aging/Development, Growth & Aging — MOC.md",
+      "x": 1800,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Development, Growth & Aging — MOC"
+    },
+    {
+      "id": "org",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Organs & Functional Units — MOC.md",
+      "x": 0,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Organs & Functional Units — MOC"
+    },
+    {
+      "id": "cell",
+      "type": "file",
+      "file": "Cell Type Index.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Cell Type Index"
+    },
+    {
+      "id": "sig",
+      "type": "file",
+      "file": "21 Signalling Modules/Signalling Modules — MOC.md",
+      "x": 1200,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Signalling Modules — MOC"
+    },
+    {
+      "id": "mach",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Cellular & Molecular Machinery — MOC.md",
+      "x": 1800,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Cellular & Molecular Machinery — MOC"
+    },
+    {
+      "id": "met",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Metabolism & Bioenergetics — MOC.md",
+      "x": 0,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Metabolism & Bioenergetics — MOC"
+    },
+    {
+      "id": "rx",
+      "type": "file",
+      "file": "Molecular Reaction Index.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Molecular Reaction Index"
+    },
+    {
+      "id": "meas",
+      "type": "file",
+      "file": "23 Clinical Measurements/Clinical Measurements — MOC.md",
+      "x": 1200,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#96a1ad",
+      "subpath": "#Clinical Measurements — MOC"
+    },
+    {
+      "id": "gap",
+      "type": "file",
+      "file": "Coverage and Gaps.md",
+      "x": 1800,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#96a1ad",
+      "subpath": "#Coverage and Gaps"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "var",
+      "fromSide": "left",
+      "toNode": "n",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "neural control",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "var",
+      "fromSide": "bottom",
+      "toNode": "en",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "endocrine control",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "states",
+      "fromSide": "bottom",
+      "toNode": "cv",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "delivery",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "states",
+      "fromSide": "right",
+      "toNode": "re",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "gas exchange",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "im",
+      "fromSide": "right",
+      "toNode": "bl",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "defence / haemostasis",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "rp",
+      "fromSide": "right",
+      "toNode": "de",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "development",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e11",
+      "fromNode": "org",
+      "fromSide": "right",
+      "toNode": "cell",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "cellular executors",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e12",
+      "fromNode": "cell",
+      "fromSide": "right",
+      "toNode": "sig",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "signal interpretation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e13",
+      "fromNode": "sig",
+      "fromSide": "right",
+      "toNode": "mach",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "cellular responses",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e14",
+      "fromNode": "met",
+      "fromSide": "right",
+      "toNode": "rx",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "reaction detail",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e15",
+      "fromNode": "rx",
+      "fromSide": "top",
+      "toNode": "cell",
+      "toSide": "bottom",
+      "toEnd": "arrow",
+      "label": "cell-specific chemistry",
+      "color": "#7c969d"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Glucose Insulin and Cellular Uptake\n\nGlucose sensing, insulin action and tissue-specific fuel handling.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "glc",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Blood Glucose Homeostasis.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Blood Glucose Homeostasis"
+    },
+    {
+      "id": "beta",
+      "type": "file",
+      "file": "20 Cell Types/Pancreatic Beta Cell.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Pancreatic Beta Cell"
+    },
+    {
+      "id": "sec",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Glucose-Stimulated Insulin Secretion.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b68aa4",
+      "subpath": "#Glucose-Stimulated Insulin Secretion"
+    },
+    {
+      "id": "inc",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Incretin Signalling.md",
+      "x": 0,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Incretin Signalling"
+    },
+    {
+      "id": "ins",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Insulin.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Insulin"
+    },
+    {
+      "id": "ir",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/Insulin Receptor.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Insulin Receptor"
+    },
+    {
+      "id": "akt",
+      "type": "file",
+      "file": "21 Signalling Modules/RTK PI3K AKT Signalling.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#RTK PI3K AKT Signalling"
+    },
+    {
+      "id": "g4",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/GLUT4.md",
+      "x": 0,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#GLUT4"
+    },
+    {
+      "id": "gly",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Glycogen Metabolism.md",
+      "x": 600,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Glycogen Metabolism"
+    },
+    {
+      "id": "gng",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Gluconeogenesis.md",
+      "x": 1200,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Gluconeogenesis"
+    },
+    {
+      "id": "con",
+      "type": "file",
+      "file": "34 Organ Microprocesses/Contraction-Stimulated Glucose Uptake.md",
+      "x": 0,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#ba9979",
+      "subpath": "#Contraction-Stimulated Glucose Uptake"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "glc",
+      "fromSide": "bottom",
+      "toNode": "beta",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "nutrient stimulus",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "beta",
+      "fromSide": "bottom",
+      "toNode": "sec",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "executes",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "inc",
+      "fromSide": "right",
+      "toNode": "sec",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "amplifies when glucose permits",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "sec",
+      "fromSide": "bottom",
+      "toNode": "ins",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "releases",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "ins",
+      "fromSide": "bottom",
+      "toNode": "ir",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "binds",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "ir",
+      "fromSide": "bottom",
+      "toNode": "akt",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "recruits",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "akt",
+      "fromSide": "left",
+      "toNode": "g4",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "promotes trafficking",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "akt",
+      "fromSide": "bottom",
+      "toNode": "gly",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "favours storage",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "akt",
+      "fromSide": "right",
+      "toNode": "gng",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "restrains hepatic output",
+      "color": "#9b7394"
+    },
+    {
+      "id": "e9",
+      "fromNode": "con",
+      "fromSide": "bottom",
+      "toNode": "g4",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "additional trafficking route",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e10",
+      "fromNode": "g4",
+      "fromSide": "left",
+      "toNode": "glc",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "uptake contributes feedback",
+      "color": "#9b7394"
+    }
+  ]
+}

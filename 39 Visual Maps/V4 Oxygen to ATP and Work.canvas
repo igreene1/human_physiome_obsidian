@@ -1,0 +1,226 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Oxygen to ATP and Work\n\nConnects delivery of oxygen and fuel to ATP supply and cellular work.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "o",
+      "type": "file",
+      "file": "05 Respiratory System/Oxygen Transport.md",
+      "x": 1200,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#7da6ba",
+      "subpath": "#Oxygen Transport"
+    },
+    {
+      "id": "gly",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Glycolysis.md",
+      "x": 0,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Glycolysis"
+    },
+    {
+      "id": "fa",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Lipolysis and Beta Oxidation.md",
+      "x": 1200,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Lipolysis and Beta Oxidation"
+    },
+    {
+      "id": "tca",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/TCA Cycle.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#TCA Cycle"
+    },
+    {
+      "id": "etc",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Electron Transport and Oxidative Phosphorylation.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#Electron Transport and Oxidative Phosphorylation"
+    },
+    {
+      "id": "atp",
+      "type": "file",
+      "file": "31 Biochemical Reactions/ATP Synthase Rotary Catalysis.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#ATP Synthase Rotary Catalysis"
+    },
+    {
+      "id": "pump",
+      "type": "file",
+      "file": "31 Biochemical Reactions/Na-K ATPase Transport Cycle.md",
+      "x": 0,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Na-K ATPase Transport Cycle"
+    },
+    {
+      "id": "prot",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Protein Translation.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Protein Translation"
+    },
+    {
+      "id": "mus",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Cross-Bridge Cycling.md",
+      "x": 1200,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Cross-Bridge Cycling"
+    },
+    {
+      "id": "leak",
+      "type": "file",
+      "file": "35 Metabolic and Transport Modules/Mitochondrial Proton Leak.md",
+      "x": 1200,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Mitochondrial Proton Leak"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "gly",
+      "fromSide": "right",
+      "toNode": "tca",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "via pyruvate / acetyl-CoA",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "fa",
+      "fromSide": "left",
+      "toNode": "tca",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "acetyl-CoA supply",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "tca",
+      "fromSide": "bottom",
+      "toNode": "etc",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "reducing equivalents",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "o",
+      "fromSide": "left",
+      "toNode": "etc",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "terminal acceptor supply",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "etc",
+      "fromSide": "bottom",
+      "toNode": "atp",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "proton-motive force",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "atp",
+      "fromSide": "left",
+      "toNode": "pump",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "ATP supply",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "atp",
+      "fromSide": "bottom",
+      "toNode": "prot",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "energy contribution",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "atp",
+      "fromSide": "right",
+      "toNode": "mus",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "ATP supply",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "etc",
+      "fromSide": "right",
+      "toNode": "leak",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "gradient dissipation",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "leak",
+      "fromSide": "left",
+      "toNode": "atp",
+      "toSide": "right",
+      "toEnd": "arrow",
+      "label": "reduces coupling efficiency",
+      "color": "#7c969d"
+    }
+  ]
+}

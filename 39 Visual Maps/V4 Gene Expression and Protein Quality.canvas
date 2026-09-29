@@ -1,0 +1,237 @@
+{
+  "nodes": [
+    {
+      "id": "header",
+      "type": "text",
+      "text": "# V4 Gene Expression and Protein Quality\n\nFrom transcription to functional protein, with processing and quality-control branches.\n\nOpen cards to read the full note. Arrow labels describe selected relationships; unshown intermediates and alternative routes can exist.",
+      "x": 0,
+      "y": -420,
+      "width": 1550,
+      "height": 180,
+      "color": "#9b7394"
+    },
+    {
+      "id": "chr",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Chromatin Accessibility and Histone Modification.md",
+      "x": 600,
+      "y": 0,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Chromatin Accessibility and Histone Modification"
+    },
+    {
+      "id": "tx",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Gene Transcription.md",
+      "x": 600,
+      "y": 320,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#Gene Transcription"
+    },
+    {
+      "id": "rna",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/RNA Processing and Regulation.md",
+      "x": 600,
+      "y": 640,
+      "width": 350,
+      "height": 175,
+      "color": "#a782b5",
+      "subpath": "#RNA Processing and Regulation"
+    },
+    {
+      "id": "tl",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Protein Translation.md",
+      "x": 600,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#Protein Translation"
+    },
+    {
+      "id": "trna",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/tRNA Charging and Translational Fidelity.md",
+      "x": 0,
+      "y": 960,
+      "width": 350,
+      "height": 175,
+      "color": "#b7a26a",
+      "subpath": "#tRNA Charging and Translational Fidelity"
+    },
+    {
+      "id": "srp",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/SRP ER Protein Targeting.md",
+      "x": 600,
+      "y": 1280,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#SRP ER Protein Targeting"
+    },
+    {
+      "id": "fold",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/ER Folding and Unfolded Protein Response.md",
+      "x": 600,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#ER Folding and Unfolded Protein Response"
+    },
+    {
+      "id": "gly",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/N-Linked Glycosylation.md",
+      "x": 0,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#829fa4",
+      "subpath": "#N-Linked Glycosylation"
+    },
+    {
+      "id": "er",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/ER-Associated Degradation.md",
+      "x": 1200,
+      "y": 1600,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#ER-Associated Degradation"
+    },
+    {
+      "id": "traf",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/COPII and COPI ER Golgi Traffic.md",
+      "x": 600,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#94aa80",
+      "subpath": "#COPII and COPI ER Golgi Traffic"
+    },
+    {
+      "id": "pr",
+      "type": "file",
+      "file": "32 Molecular Cell Processes/Ubiquitin Proteasome System.md",
+      "x": 1200,
+      "y": 1920,
+      "width": 350,
+      "height": 175,
+      "color": "#bf7f86",
+      "subpath": "#Ubiquitin Proteasome System"
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "chr",
+      "fromSide": "bottom",
+      "toNode": "tx",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "controls access",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e1",
+      "fromNode": "tx",
+      "fromSide": "bottom",
+      "toNode": "rna",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "nascent transcript",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e2",
+      "fromNode": "rna",
+      "fromSide": "bottom",
+      "toNode": "tl",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "mature mRNA",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e3",
+      "fromNode": "trna",
+      "fromSide": "right",
+      "toNode": "tl",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "charged tRNAs",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e4",
+      "fromNode": "tl",
+      "fromSide": "bottom",
+      "toNode": "srp",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "selected nascent proteins",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e5",
+      "fromNode": "srp",
+      "fromSide": "bottom",
+      "toNode": "fold",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "ER entry",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e6",
+      "fromNode": "gly",
+      "fromSide": "right",
+      "toNode": "fold",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "folding surveillance",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e7",
+      "fromNode": "fold",
+      "fromSide": "bottom",
+      "toNode": "traf",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "competent cargo",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e8",
+      "fromNode": "fold",
+      "fromSide": "right",
+      "toNode": "er",
+      "toSide": "left",
+      "toEnd": "arrow",
+      "label": "persistent defects",
+      "color": "#7c969d"
+    },
+    {
+      "id": "e9",
+      "fromNode": "er",
+      "fromSide": "bottom",
+      "toNode": "pr",
+      "toSide": "top",
+      "toEnd": "arrow",
+      "label": "extracted ubiquitinated\nsubstrate",
+      "color": "#7c969d"
+    }
+  ]
+}

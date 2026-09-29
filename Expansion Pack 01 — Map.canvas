@@ -1,0 +1,99 @@
+{
+  "nodes": [
+    {
+      "id": "t",
+      "type": "text",
+      "text": "Expansion Pack 01\norgan → cell → protein → signal → measurement",
+      "x": 0,
+      "y": 0,
+      "width": 320,
+      "height": 140
+    },
+    {
+      "id": "o",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Organs & Functional Units — MOC.md",
+      "x": -520,
+      "y": 250,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "c",
+      "type": "file",
+      "file": "20 Cell Types/Cell Types — MOC.md",
+      "x": -180,
+      "y": 250,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "s",
+      "type": "file",
+      "file": "21 Signalling Modules/Signalling Modules — MOC.md",
+      "x": 160,
+      "y": 250,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "p",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/Molecules Receptors & Transporters — MOC.md",
+      "x": 500,
+      "y": 250,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "m",
+      "type": "file",
+      "file": "23 Clinical Measurements/Clinical Measurements — MOC.md",
+      "x": 840,
+      "y": 250,
+      "width": 300,
+      "height": 110
+    },
+    {
+      "id": "d",
+      "type": "file",
+      "file": "24 Deep Dives/Deep Dive — Glucose Homeostasis.md",
+      "x": 160,
+      "y": 470,
+      "width": 300,
+      "height": 110
+    }
+  ],
+  "edges": [
+    {
+      "id": "e1",
+      "fromNode": "t",
+      "toNode": "o"
+    },
+    {
+      "id": "e2",
+      "fromNode": "o",
+      "toNode": "c"
+    },
+    {
+      "id": "e3",
+      "fromNode": "c",
+      "toNode": "p"
+    },
+    {
+      "id": "e4",
+      "fromNode": "p",
+      "toNode": "s"
+    },
+    {
+      "id": "e5",
+      "fromNode": "s",
+      "toNode": "m"
+    },
+    {
+      "id": "e6",
+      "fromNode": "t",
+      "toNode": "d"
+    }
+  ]
+}
