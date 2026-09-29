@@ -1,0 +1,127 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "type": "file",
+      "file": "25 Brain Regions & Nuclei/Arcuate Nucleus.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n1",
+      "type": "file",
+      "file": "26 Neurotransmitters & Neuromodulators/Dopamine.md",
+      "x": 380,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n2",
+      "type": "file",
+      "file": "27 Neural Receptors & Channels/D2-like Dopamine Receptors.md",
+      "x": 760,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n3",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Anterior Pituitary.md",
+      "x": 0,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n4",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Prolactin.md",
+      "x": 380,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n5",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Prolactin Receptor.md",
+      "x": 760,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n6",
+      "type": "file",
+      "file": "21 Signalling Modules/JAK STAT Signalling.md",
+      "x": 0,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n7",
+      "type": "file",
+      "file": "13 Reproductive System/Lactation.md",
+      "x": 380,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n8",
+      "type": "file",
+      "file": "28 Endocrine Hormones & Receptors/Oxytocin.md",
+      "x": 760,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "n0",
+      "toNode": "n1"
+    },
+    {
+      "id": "e1",
+      "fromNode": "n1",
+      "toNode": "n2"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n2",
+      "toNode": "n3"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n3",
+      "toNode": "n4"
+    },
+    {
+      "id": "e4",
+      "fromNode": "n4",
+      "toNode": "n5"
+    },
+    {
+      "id": "e5",
+      "fromNode": "n5",
+      "toNode": "n6"
+    },
+    {
+      "id": "e6",
+      "fromNode": "n6",
+      "toNode": "n7"
+    },
+    {
+      "id": "e7",
+      "fromNode": "n7",
+      "toNode": "n8"
+    }
+  ]
+}

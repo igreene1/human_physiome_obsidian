@@ -1,0 +1,141 @@
+{
+  "nodes": [
+    {
+      "id": "n0",
+      "type": "file",
+      "file": "29 Autonomic Reflexes & Organ Control/Baroreceptor Reflex.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n1",
+      "type": "file",
+      "file": "25 Brain Regions & Nuclei/Nucleus Tractus Solitarius.md",
+      "x": 380,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n2",
+      "type": "file",
+      "file": "25 Brain Regions & Nuclei/Caudal Ventrolateral Medulla.md",
+      "x": 760,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n3",
+      "type": "file",
+      "file": "25 Brain Regions & Nuclei/Rostral Ventrolateral Medulla.md",
+      "x": 0,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n4",
+      "type": "file",
+      "file": "29 Autonomic Reflexes & Organ Control/Sympathetic Cardiac Control.md",
+      "x": 380,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n5",
+      "type": "file",
+      "file": "29 Autonomic Reflexes & Organ Control/Sympathetic Vascular Control.md",
+      "x": 760,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n6",
+      "type": "file",
+      "file": "25 Brain Regions & Nuclei/Nucleus Ambiguus.md",
+      "x": 0,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n7",
+      "type": "file",
+      "file": "29 Autonomic Reflexes & Organ Control/Parasympathetic Cardiac Control.md",
+      "x": 380,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n8",
+      "type": "file",
+      "file": "23 Clinical Measurements/Arterial Blood Pressure.md",
+      "x": 760,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "n9",
+      "type": "file",
+      "file": "23 Clinical Measurements/Heart Rate.md",
+      "x": 0,
+      "y": 540,
+      "width": 300,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "n0",
+      "toNode": "n1"
+    },
+    {
+      "id": "e1",
+      "fromNode": "n1",
+      "toNode": "n2"
+    },
+    {
+      "id": "e2",
+      "fromNode": "n2",
+      "toNode": "n3"
+    },
+    {
+      "id": "e3",
+      "fromNode": "n3",
+      "toNode": "n4"
+    },
+    {
+      "id": "e4",
+      "fromNode": "n4",
+      "toNode": "n5"
+    },
+    {
+      "id": "e5",
+      "fromNode": "n5",
+      "toNode": "n6"
+    },
+    {
+      "id": "e6",
+      "fromNode": "n6",
+      "toNode": "n7"
+    },
+    {
+      "id": "e7",
+      "fromNode": "n7",
+      "toNode": "n8"
+    },
+    {
+      "id": "e8",
+      "fromNode": "n8",
+      "toNode": "n9"
+    }
+  ]
+}
