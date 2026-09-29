@@ -1,0 +1,150 @@
+{
+  "nodes": [
+    {
+      "id": "w0",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Water and Osmolality Homeostasis.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w1",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Hypothalamus.md",
+      "x": -350,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w2",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Kidney.md",
+      "x": 350,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w3",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Collecting Duct.md",
+      "x": 350,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w4",
+      "type": "file",
+      "file": "20 Cell Types/Collecting Duct Principal Cell.md",
+      "x": 350,
+      "y": 540,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w5",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/V2 Receptor.md",
+      "x": 0,
+      "y": 720,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w6",
+      "type": "file",
+      "file": "21 Signalling Modules/cAMP PKA Signalling.md",
+      "x": 350,
+      "y": 720,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w7",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/Aquaporin 2.md",
+      "x": 700,
+      "y": 720,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w8",
+      "type": "file",
+      "file": "23 Clinical Measurements/Serum Osmolality.md",
+      "x": -100,
+      "y": 900,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "w9",
+      "type": "file",
+      "file": "23 Clinical Measurements/Urine Osmolality.md",
+      "x": 450,
+      "y": 900,
+      "width": 300,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "we0",
+      "fromNode": "w0",
+      "toNode": "w1",
+      "label": "osmoregulation"
+    },
+    {
+      "id": "we1",
+      "fromNode": "w1",
+      "toNode": "w4",
+      "label": "ADH"
+    },
+    {
+      "id": "we2",
+      "fromNode": "w2",
+      "toNode": "w3",
+      "label": "final water handling"
+    },
+    {
+      "id": "we3",
+      "fromNode": "w3",
+      "toNode": "w4",
+      "label": "principal cells"
+    },
+    {
+      "id": "we4",
+      "fromNode": "w4",
+      "toNode": "w5",
+      "label": "expresses"
+    },
+    {
+      "id": "we5",
+      "fromNode": "w5",
+      "toNode": "w6",
+      "label": "Gs/cAMP"
+    },
+    {
+      "id": "we6",
+      "fromNode": "w6",
+      "toNode": "w7",
+      "label": "inserts"
+    },
+    {
+      "id": "we7",
+      "fromNode": "w0",
+      "toNode": "w8",
+      "label": "plasma observation"
+    },
+    {
+      "id": "we8",
+      "fromNode": "w4",
+      "toNode": "w9",
+      "label": "urine response"
+    }
+  ]
+}

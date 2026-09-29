@@ -1,0 +1,210 @@
+{
+  "nodes": [
+    {
+      "id": "g0",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Blood Glucose Homeostasis.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g1",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Pancreatic Islet.md",
+      "x": 0,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g2",
+      "type": "file",
+      "file": "20 Cell Types/Pancreatic Beta Cell.md",
+      "x": -380,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g3",
+      "type": "file",
+      "file": "20 Cell Types/Pancreatic Alpha Cell.md",
+      "x": 380,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g4",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/Insulin Receptor.md",
+      "x": -380,
+      "y": 540,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g5",
+      "type": "file",
+      "file": "21 Signalling Modules/RTK PI3K AKT Signalling.md",
+      "x": -380,
+      "y": 720,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g6",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/GLUT4.md",
+      "x": -380,
+      "y": 900,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g7",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Skeletal Muscle.md",
+      "x": -760,
+      "y": 1080,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g8",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Adipose Tissue.md",
+      "x": -380,
+      "y": 1080,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g9",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Liver.md",
+      "x": 380,
+      "y": 540,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g10",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Glycogen Metabolism.md",
+      "x": 260,
+      "y": 720,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g11",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Gluconeogenesis.md",
+      "x": 560,
+      "y": 720,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g12",
+      "type": "file",
+      "file": "23 Clinical Measurements/Serum Glucose.md",
+      "x": 0,
+      "y": 1080,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "g13",
+      "type": "file",
+      "file": "23 Clinical Measurements/HbA1c.md",
+      "x": 300,
+      "y": 1080,
+      "width": 300,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "ge0",
+      "fromNode": "g0",
+      "toNode": "g1",
+      "label": "sensor/controller"
+    },
+    {
+      "id": "ge1",
+      "fromNode": "g1",
+      "toNode": "g2",
+      "label": "high glucose → insulin"
+    },
+    {
+      "id": "ge2",
+      "fromNode": "g1",
+      "toNode": "g3",
+      "label": "fasting → glucagon"
+    },
+    {
+      "id": "ge3",
+      "fromNode": "g2",
+      "toNode": "g4",
+      "label": "insulin"
+    },
+    {
+      "id": "ge4",
+      "fromNode": "g4",
+      "toNode": "g5",
+      "label": "activates"
+    },
+    {
+      "id": "ge5",
+      "fromNode": "g5",
+      "toNode": "g6",
+      "label": "trafficking"
+    },
+    {
+      "id": "ge6",
+      "fromNode": "g6",
+      "toNode": "g7",
+      "label": "glucose uptake"
+    },
+    {
+      "id": "ge7",
+      "fromNode": "g6",
+      "toNode": "g8",
+      "label": "glucose uptake"
+    },
+    {
+      "id": "ge8",
+      "fromNode": "g3",
+      "toNode": "g9",
+      "label": "glucagon target"
+    },
+    {
+      "id": "ge9",
+      "fromNode": "g9",
+      "toNode": "g10",
+      "label": "glycogen flux"
+    },
+    {
+      "id": "ge10",
+      "fromNode": "g9",
+      "toNode": "g11",
+      "label": "glucose production"
+    },
+    {
+      "id": "ge11",
+      "fromNode": "g0",
+      "toNode": "g12",
+      "label": "observed by"
+    },
+    {
+      "id": "ge12",
+      "fromNode": "g0",
+      "toNode": "g13",
+      "label": "longer-term window"
+    }
+  ]
+}

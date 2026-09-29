@@ -1,0 +1,189 @@
+{
+  "nodes": [
+    {
+      "id": "t0",
+      "type": "file",
+      "file": "03 Endocrine System/Thyroid Hormone Physiology.md",
+      "x": 0,
+      "y": 0,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t1",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Hypothalamus.md",
+      "x": -400,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t2",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Anterior Pituitary.md",
+      "x": 0,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t3",
+      "type": "file",
+      "file": "19 Organs & Functional Units/Thyroid Gland.md",
+      "x": 400,
+      "y": 180,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t4",
+      "type": "file",
+      "file": "20 Cell Types/Thyroid Follicular Cell.md",
+      "x": 400,
+      "y": 360,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t5",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/TSH Receptor.md",
+      "x": 100,
+      "y": 540,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t6",
+      "type": "file",
+      "file": "21 Signalling Modules/cAMP PKA Signalling.md",
+      "x": 400,
+      "y": 540,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t7",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/Sodium Iodide Symporter.md",
+      "x": 700,
+      "y": 540,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t8",
+      "type": "file",
+      "file": "22 Molecules Receptors & Transporters/Thyroid Hormone Receptor.md",
+      "x": 400,
+      "y": 720,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t9",
+      "type": "file",
+      "file": "21 Signalling Modules/Nuclear Hormone Receptor Signalling.md",
+      "x": 400,
+      "y": 900,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t10",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Energy Balance and Body Weight Regulation.md",
+      "x": 100,
+      "y": 1080,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t11",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Core Temperature Homeostasis.md",
+      "x": 460,
+      "y": 1080,
+      "width": 300,
+      "height": 100
+    },
+    {
+      "id": "t12",
+      "type": "file",
+      "file": "23 Clinical Measurements/TSH and Free T4.md",
+      "x": 760,
+      "y": 1080,
+      "width": 300,
+      "height": 100
+    }
+  ],
+  "edges": [
+    {
+      "id": "te0",
+      "fromNode": "t1",
+      "toNode": "t2",
+      "label": "TRH"
+    },
+    {
+      "id": "te1",
+      "fromNode": "t2",
+      "toNode": "t3",
+      "label": "TSH"
+    },
+    {
+      "id": "te2",
+      "fromNode": "t3",
+      "toNode": "t4",
+      "label": "follicles"
+    },
+    {
+      "id": "te3",
+      "fromNode": "t4",
+      "toNode": "t5",
+      "label": "expresses"
+    },
+    {
+      "id": "te4",
+      "fromNode": "t5",
+      "toNode": "t6",
+      "label": "signals via"
+    },
+    {
+      "id": "te5",
+      "fromNode": "t6",
+      "toNode": "t7",
+      "label": "supports synthesis machinery"
+    },
+    {
+      "id": "te6",
+      "fromNode": "t4",
+      "toNode": "t8",
+      "label": "T4/T3 → tissue action"
+    },
+    {
+      "id": "te7",
+      "fromNode": "t8",
+      "toNode": "t9",
+      "label": "transcription"
+    },
+    {
+      "id": "te8",
+      "fromNode": "t9",
+      "toNode": "t10",
+      "label": "metabolic effects"
+    },
+    {
+      "id": "te9",
+      "fromNode": "t9",
+      "toNode": "t11",
+      "label": "thermogenic effects"
+    },
+    {
+      "id": "te10",
+      "fromNode": "t0",
+      "toNode": "t12",
+      "label": "measured by"
+    }
+  ]
+}
