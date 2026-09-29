@@ -1,0 +1,272 @@
+{
+  "nodes": [
+    {
+      "id": "moc",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Metabolism & Bioenergetics — MOC.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "3"
+    },
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Glycolysis.md",
+      "x": -430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Pyruvate and Lactate Metabolism.md",
+      "x": 0,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/TCA Cycle.md",
+      "x": 430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Electron Transport and Oxidative Phosphorylation.md",
+      "x": -430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Glycogen Metabolism.md",
+      "x": 0,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p5",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Gluconeogenesis.md",
+      "x": 430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p6",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Pentose Phosphate Pathway.md",
+      "x": -430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p7",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Fatty Acid Synthesis and Lipogenesis.md",
+      "x": 0,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p8",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Lipolysis and Beta Oxidation.md",
+      "x": 430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p9",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Ketone Body Metabolism.md",
+      "x": -430,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p10",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Cholesterol and Lipoprotein Metabolism.md",
+      "x": 0,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p11",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Amino Acid Metabolism and Urea Cycle.md",
+      "x": 430,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p12",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Nucleotide Metabolism.md",
+      "x": -430,
+      "y": 1200,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p13",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Fed Fasting and Starvation States.md",
+      "x": 0,
+      "y": 1200,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p14",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Reactive Oxygen Species and Antioxidant Defence.md",
+      "x": 430,
+      "y": 1200,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p15",
+      "type": "file",
+      "file": "08 Metabolism & Bioenergetics/Thermogenesis and Energy Expenditure.md",
+      "x": -430,
+      "y": 1440,
+      "width": 340,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p6",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p7",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p8",
+      "toSide": "top"
+    },
+    {
+      "id": "e9",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p9",
+      "toSide": "top"
+    },
+    {
+      "id": "e10",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p10",
+      "toSide": "top"
+    },
+    {
+      "id": "e11",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p11",
+      "toSide": "top"
+    },
+    {
+      "id": "e12",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p12",
+      "toSide": "top"
+    },
+    {
+      "id": "e13",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p13",
+      "toSide": "top"
+    },
+    {
+      "id": "e14",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p14",
+      "toSide": "top"
+    },
+    {
+      "id": "e15",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p15",
+      "toSide": "top"
+    }
+  ]
+}

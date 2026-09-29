@@ -1,0 +1,144 @@
+{
+  "nodes": [
+    {
+      "id": "moc",
+      "type": "file",
+      "file": "04 Cardiovascular System/Cardiovascular System — MOC.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "1"
+    },
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "04 Cardiovascular System/Cardiac Electrophysiology.md",
+      "x": -430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "04 Cardiovascular System/Excitation-Contraction Coupling in Heart.md",
+      "x": 0,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "04 Cardiovascular System/Cardiac Cycle.md",
+      "x": 430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "04 Cardiovascular System/Cardiac Output and Venous Return.md",
+      "x": -430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "04 Cardiovascular System/Vascular Tone and Systemic Resistance.md",
+      "x": 0,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p5",
+      "type": "file",
+      "file": "04 Cardiovascular System/Blood Pressure Regulation.md",
+      "x": 430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p6",
+      "type": "file",
+      "file": "04 Cardiovascular System/Microcirculation and Capillary Exchange.md",
+      "x": -430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p7",
+      "type": "file",
+      "file": "04 Cardiovascular System/Regional Blood Flow.md",
+      "x": 0,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p6",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p7",
+      "toSide": "top"
+    }
+  ]
+}
