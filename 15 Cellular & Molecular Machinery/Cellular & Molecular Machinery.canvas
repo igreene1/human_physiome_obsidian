@@ -1,0 +1,240 @@
+{
+  "nodes": [
+    {
+      "id": "moc",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Cellular & Molecular Machinery — MOC.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Receptor Signalling.md",
+      "x": -430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Second Messenger Signalling.md",
+      "x": 0,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Gene Transcription.md",
+      "x": 430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/RNA Processing and Regulation.md",
+      "x": -430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Protein Translation.md",
+      "x": 0,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p5",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Protein Folding and Quality Control.md",
+      "x": 430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p6",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Vesicle Trafficking and Secretion.md",
+      "x": -430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p7",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Lysosomes and Autophagy.md",
+      "x": 0,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p8",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Mitochondrial Function.md",
+      "x": 430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p9",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Cell Cycle.md",
+      "x": -430,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p10",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/DNA Replication and Repair.md",
+      "x": 0,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p11",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Apoptosis and Regulated Cell Death.md",
+      "x": 430,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p12",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Cytoskeleton and Cell Motility.md",
+      "x": -430,
+      "y": 1200,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p13",
+      "type": "file",
+      "file": "15 Cellular & Molecular Machinery/Cell Junctions and Extracellular Matrix.md",
+      "x": 0,
+      "y": 1200,
+      "width": 340,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p6",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p7",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p8",
+      "toSide": "top"
+    },
+    {
+      "id": "e9",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p9",
+      "toSide": "top"
+    },
+    {
+      "id": "e10",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p10",
+      "toSide": "top"
+    },
+    {
+      "id": "e11",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p11",
+      "toSide": "top"
+    },
+    {
+      "id": "e12",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p12",
+      "toSide": "top"
+    },
+    {
+      "id": "e13",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p13",
+      "toSide": "top"
+    }
+  ]
+}

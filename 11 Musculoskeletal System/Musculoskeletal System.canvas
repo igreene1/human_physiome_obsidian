@@ -1,0 +1,160 @@
+{
+  "nodes": [
+    {
+      "id": "moc",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Musculoskeletal System — MOC.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "2"
+    },
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Neuromuscular Junction.md",
+      "x": -430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Skeletal Muscle Excitation-Contraction Coupling.md",
+      "x": 0,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Cross-Bridge Cycling.md",
+      "x": 430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Motor Unit Recruitment and Force Control.md",
+      "x": -430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Muscle Energy Systems.md",
+      "x": 0,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p5",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Bone Remodelling.md",
+      "x": 430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p6",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Bone Mineral Homeostasis.md",
+      "x": -430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p7",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Cartilage Tendon and Ligament Homeostasis.md",
+      "x": 0,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p8",
+      "type": "file",
+      "file": "11 Musculoskeletal System/Exercise Adaptation.md",
+      "x": 430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p6",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p7",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p8",
+      "toSide": "top"
+    }
+  ]
+}

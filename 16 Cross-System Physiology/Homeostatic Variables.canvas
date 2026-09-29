@@ -1,0 +1,184 @@
+{
+  "nodes": [
+    {
+      "id": "hub",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Homeostatic Variables.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "v0",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Blood Glucose Homeostasis.md",
+      "x": -440,
+      "y": 240,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v1",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Arterial Blood Pressure Homeostasis.md",
+      "x": 0,
+      "y": 240,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v2",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Oxygen Homeostasis.md",
+      "x": 440,
+      "y": 240,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v3",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Carbon Dioxide and pH Homeostasis.md",
+      "x": -440,
+      "y": 480,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v4",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Water and Osmolality Homeostasis.md",
+      "x": 0,
+      "y": 480,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v5",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Sodium Homeostasis.md",
+      "x": 440,
+      "y": 480,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v6",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Potassium Homeostasis.md",
+      "x": -440,
+      "y": 720,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v7",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Calcium and Phosphate Homeostasis.md",
+      "x": 0,
+      "y": 720,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v8",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Core Temperature Homeostasis.md",
+      "x": 440,
+      "y": 720,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v9",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Energy Balance and Body Weight Regulation.md",
+      "x": -440,
+      "y": 960,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v10",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Circulating Volume Homeostasis.md",
+      "x": 0,
+      "y": 960,
+      "width": 360,
+      "height": 180
+    },
+    {
+      "id": "v11",
+      "type": "file",
+      "file": "16 Cross-System Physiology/Acid-Base Homeostasis.md",
+      "x": 440,
+      "y": 960,
+      "width": 360,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "hub",
+      "toNode": "v0"
+    },
+    {
+      "id": "e1",
+      "fromNode": "hub",
+      "toNode": "v1"
+    },
+    {
+      "id": "e2",
+      "fromNode": "hub",
+      "toNode": "v2"
+    },
+    {
+      "id": "e3",
+      "fromNode": "hub",
+      "toNode": "v3"
+    },
+    {
+      "id": "e4",
+      "fromNode": "hub",
+      "toNode": "v4"
+    },
+    {
+      "id": "e5",
+      "fromNode": "hub",
+      "toNode": "v5"
+    },
+    {
+      "id": "e6",
+      "fromNode": "hub",
+      "toNode": "v6"
+    },
+    {
+      "id": "e7",
+      "fromNode": "hub",
+      "toNode": "v7"
+    },
+    {
+      "id": "e8",
+      "fromNode": "hub",
+      "toNode": "v8"
+    },
+    {
+      "id": "e9",
+      "fromNode": "hub",
+      "toNode": "v9"
+    },
+    {
+      "id": "e10",
+      "fromNode": "hub",
+      "toNode": "v10"
+    },
+    {
+      "id": "e11",
+      "fromNode": "hub",
+      "toNode": "v11"
+    }
+  ]
+}

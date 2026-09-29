@@ -1,0 +1,192 @@
+{
+  "nodes": [
+    {
+      "id": "moc",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Immune, Inflammation & Repair — MOC.md",
+      "x": 0,
+      "y": 0,
+      "width": 360,
+      "height": 220,
+      "color": "4"
+    },
+    {
+      "id": "p0",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Physical and Chemical Barriers.md",
+      "x": -430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p1",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Innate Immune Recognition.md",
+      "x": 0,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p2",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Acute Inflammation.md",
+      "x": 430,
+      "y": 240,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p3",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Complement System.md",
+      "x": -430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p4",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Phagocytosis and Microbial Killing.md",
+      "x": 0,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p5",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Antigen Processing and Presentation.md",
+      "x": 430,
+      "y": 480,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p6",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/T Cell Activation and Effector Function.md",
+      "x": -430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p7",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/B Cell Activation and Antibody Responses.md",
+      "x": 0,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p8",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Immune Tolerance.md",
+      "x": 430,
+      "y": 720,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p9",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Resolution of Inflammation.md",
+      "x": -430,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    },
+    {
+      "id": "p10",
+      "type": "file",
+      "file": "09 Immune Inflammation & Repair/Wound Healing and Tissue Repair.md",
+      "x": 0,
+      "y": 960,
+      "width": 340,
+      "height": 180
+    }
+  ],
+  "edges": [
+    {
+      "id": "e0",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p0",
+      "toSide": "top"
+    },
+    {
+      "id": "e1",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p1",
+      "toSide": "top"
+    },
+    {
+      "id": "e2",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p2",
+      "toSide": "top"
+    },
+    {
+      "id": "e3",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p3",
+      "toSide": "top"
+    },
+    {
+      "id": "e4",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p4",
+      "toSide": "top"
+    },
+    {
+      "id": "e5",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p5",
+      "toSide": "top"
+    },
+    {
+      "id": "e6",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p6",
+      "toSide": "top"
+    },
+    {
+      "id": "e7",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p7",
+      "toSide": "top"
+    },
+    {
+      "id": "e8",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p8",
+      "toSide": "top"
+    },
+    {
+      "id": "e9",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p9",
+      "toSide": "top"
+    },
+    {
+      "id": "e10",
+      "fromNode": "moc",
+      "fromSide": "bottom",
+      "toNode": "p10",
+      "toSide": "top"
+    }
+  ]
+}
